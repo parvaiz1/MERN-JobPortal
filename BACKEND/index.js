@@ -21,8 +21,15 @@ mongoose.connect("mongodb+srv://blueimpluse:jobportal1234@cluster0.5dgcnm4.mongo
     .catch(() => { console.log("failed") })
 
 app.use(express.json())
-app.use(cors())
+app.use(cors(
+    {
+        origin:["https://deploy-mern-1whq.vercel.app"],
+        methods: ["POST","GET"],
+        credentials:true
+    }
+))
 app.use(express.static('public'))
+app.use(express.json())
 
 app.use("/StudentProfile",StudentProfileRoutes)
 app.use("/EmpProfile",EmpProfileRoutes)
