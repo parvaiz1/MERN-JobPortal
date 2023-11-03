@@ -40,7 +40,7 @@ function Home() {
   //   }
   // })
   async function getjobs() {
-    await axios.get("http://localhost:8080/jobpost/getjobs")
+    await axios.get("deploy-mern-api-two.vercel.app/jobpost/getjobs")
       .then((res) => {
         let result = (res.data)
         console.log(result)
