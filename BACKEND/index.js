@@ -30,7 +30,8 @@ app.use(cors(
 ))
 app.use(express.static('public'))
 app.use(express.json())
-
+app.get("/", async(req,res)=>{
+    res.send("Hello")})
 app.use("/StudentProfile",StudentProfileRoutes)
 app.use("/EmpProfile",EmpProfileRoutes)
 app.use("/jobpost", jobpostRoutes)
