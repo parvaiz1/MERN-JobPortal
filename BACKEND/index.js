@@ -23,7 +23,7 @@ mongoose.connect("mongodb+srv://blueimpluse:jobportal1234@cluster0.5dgcnm4.mongo
 app.use(express.json())
 app.use(cors(
     {
-        origin:["https://deploy-mern-1whq.vercel.app"],
+        origin:["https://job-portal-front-end-theta.vercel.app"],
         methods: ["POST","GET"],
         credentials:true
     }
