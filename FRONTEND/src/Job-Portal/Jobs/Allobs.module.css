@@ -1,0 +1,248 @@
+/* 
+
+.carwrapper{
+    background-color: rgb(219, 223, 220);
+    display: flex;
+    flex-wrap: wrap;
+    width : 100% ;
+}
+
+.card{
+    background-color: white;
+    border : 1px solid rgb(194, 193, 193);
+    margin: 1%;
+    width : 31%;
+     border-top: 4px solid rgb(55, 16, 92);
+
+}
+.AlltexWrapper{
+    margin-left: 6%;
+}
+.descriptionAndApply{
+    display: flex;  
+    align-items: center;   
+}
+.description{        
+    flex-wrap: wrap;
+    width: 60%;
+    word-wrap: break-word
+}
+.seeMore{
+    color : rgb(104, 50, 190)
+}
+.button{
+    border: 1px solid rgb(40, 4, 99);
+    color : rgb(40, 4, 99);
+    font-weight: 550; 
+    font-size: small; 
+    height: 30px;
+    width:100px;
+    margin-left: 25px;    
+}
+.text{
+    font-weight: 550;
+} */
+/* .......................CardDetails............. */
+/* .detailedcarwrapper{
+    width : 50%;
+    background-color: rgb(219, 223, 220);
+
+}
+
+.showLess{
+    color:rgb(109, 52, 201);
+}
+.detailedcard{
+    background-color: white;
+    border : 1px solid rgb(194, 193, 193);
+    margin: 1%;
+     border-top: 4px solid rgb(55, 16, 92);
+    width : 100%
+}
+.detaileddescription{
+    display: inline;
+} */
+
+/* ..............UL......LI............. */
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    /* margin-top: 100px; */
+    padding: 3px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+  }
+
+
+.HeadingSort{
+    display: flex;
+    margin-left: 10%;
+
+}
+.radioWrapper{
+     margin-top: 4%;
+     margin-left: -15%;
+     width: 20%;
+}
+.radio{
+    margin-left: 5%;
+
+    background-color: bisque;
+}
+.p{
+    margin-left: 15%;
+    opacity: 0.6;
+}
+.Applybutton{
+    border: 1px solid rgb(40, 4, 99);
+    background-color: rgb(40, 4, 99);
+    display: flex;
+    color: white;
+    font-weight: bold;
+    width:80%;
+    padding-left: 22%;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    margin-left: 7%;
+
+}
+.Loader{
+    width:40px;
+    margin-left: -15%;
+}
+.Appliedbutton{
+    border: 1px solid green;
+    background-color:green;    
+    color: white;
+    font-weight: bold;
+    width:85%;
+    height: 25px;    
+}
+.searchBoth{
+    margin-left: 20%;
+    margin-top: 15px;
+
+    display: flex;
+}
+.p{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.inputboxsearch{
+    display: inline-flex;
+    height : 35px;
+    margin-top: 13px;
+    margin-left: 3%;
+    width: 45%;
+    border-radius:5px;
+    border : 1.5px solid rgb(9, 247, 247);
+}
+
+.seeMore{
+ color: blue;
+}
+.Uiwarpper{
+    margin-top: 10px;
+    margin-left: -2%;
+}
+.ul{
+    display: flex;
+    margin: 0px;
+}
+.li{
+    display: inline-block;
+    padding: 0.5%;
+    width : 8%;
+    border : 1px solid rgb(9, 247, 247);
+    text-align: center;
+}
+.liDescription{
+    width : 18%;
+
+}
+.JobType{
+    width:6%
+}
+.date{
+    width:6%
+}
+.qualification{
+    width:5%
+}
+.Jtitle{
+    width:10%
+}
+.Package{
+    width:5%
+}
+.experiance{
+    width:4%;
+}
+.Location{
+    width:5%;
+}
+.Skills{
+    width:8%;
+}
+/* ..............job details............. */
+
+.dUiwarpper{
+    margin-top: 10px;
+    display: flex;
+}
+
+.Hul{
+    width : 40%;
+}
+.Hli{
+    padding: 0.5%;
+    width : 65%;
+    border : 1px solid rgb(9, 247, 247);
+    text-align: center;
+    /* border-right: none; */
+    display: inline-block;  
+
+}
+.Rul{
+    width : 40%;
+height: 180px;
+
+
+}
+.Rli{
+    display: inline-block;
+    margin-left: -55%;
+    padding: 0.5%;
+    width : 165%;
+    border : 1px solid rgb(9, 247, 247);
+border-left: none;
+
+    text-align: center;
+}
+.DUIli{
+    border-top: none;
+    border : 1px solid rgb(9, 247, 247);
+    width : 210.8%;
+
+
+}
+.Dli{
+    display: inline-block;
+}
+.RDli{
+    display: inline-block;
+    width : 99.8%;
+
+}
+
+.showLess{
+    color:rgb(109, 52, 201);
+}
+

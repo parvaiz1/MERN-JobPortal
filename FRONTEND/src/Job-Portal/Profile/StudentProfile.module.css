@@ -1,0 +1,54 @@
+.imageV{
+    height:150px;
+    width:13%;
+    border-radius: 180%;
+    margin-left: 7%;
+}
+
+.ul{
+    text-decoration: none;
+    margin-left: 2%;
+    width:20%
+
+}
+.ulR{
+    text-decoration: none;
+    margin-left: -6.7%;
+    width:20%;
+}
+.Hli{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid aqua;
+    border-left: none;
+    width:350%;
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+}
+.li{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid aqua;
+    width:90%;
+    text-align: center;
+    display: inline-block;
+    padding: 2%;
+
+}
+.uiwrapper{
+    display: flex;
+}
+.Nli{
+    display: block;
+    color: red;
+}
+
+.EmpImage{
+    height:80px;
+    width:8%;
+    margin-left:8%;
+    margin-top:2%
+
+}

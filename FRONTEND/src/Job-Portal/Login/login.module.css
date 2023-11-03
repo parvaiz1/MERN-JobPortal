@@ -1,0 +1,113 @@
+.BothsignUpWrapper{
+    margin-top: 6%;
+}
+.Loginpage{
+    color:grey;
+    margin-left: 32%;
+}
+.inputs {
+    border: 1px solid rgb(175, 179, 188);
+    /* background-color: aqua; */
+    width: 25%;
+    display: block;
+    margin-left: 35%;
+    border-radius: 8px;
+    height: 30px;
+    margin-top: 1%;
+
+}
+
+.button {
+    background-color: rgb(40, 4, 99);
+    color: white;
+    width: 25.5%;
+
+    cursor: pointer;
+
+    font-size: medium;
+    font-weight: 550;
+    height: 35px;
+    /* width: 10%; */
+}
+
+.error {
+    color: red;
+    margin-left: 280px;
+}
+
+.hrwrapper {
+    margin-left: 300px;
+    width: 50%;
+}
+
+.line {
+    width: 200px;
+}
+
+.topsideError {
+    color: red;
+    margin-left: 450px;
+}
+
+.notAccount {
+    /* background-color: red; */
+    width: 20%;
+    display: flex;
+    margin-left: 35.5%;
+}
+
+.topuperror {
+    margin-left: 36%;
+    color: red;
+}
+
+.Registerlink {
+    text-decoration: none;
+}
+
+.OR {
+    margin-left: 47%;
+    margin-top: 2%;
+    color: rgb(85, 85, 85);
+    /* background-color: blue; */
+}
+
+.signUpWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 20%;
+    margin-left: 40%;
+    padding: 0.1%;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.signUpwrap {
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+    font-size: medium;
+    margin-left: 5%;
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: blue; */
+}
+
+.google {
+    height: 30px;
+    margin-top: 5px;
+    /* width :10% */
+}
+
+.both {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-left: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: nowrap;
+}

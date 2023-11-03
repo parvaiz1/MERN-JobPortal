@@ -1,0 +1,68 @@
+
+.Uiwarpper {
+    margin-left: -2%;
+}
+.h3{
+    color: blue;
+    margin-left: 4%;
+}
+.ul {
+    display: flex;
+    margin: 0px;
+}
+
+.li {
+    display: inline-block;
+    padding: 0.5%;
+    width: 6%;
+    border: 1px solid rgb(9, 247, 247);
+    text-align: center;
+}
+
+.liDescription {
+    width: 20%;
+
+}
+
+.Jtitle {
+    width: 7.5%
+}
+
+.Package {
+    width: 5%
+}
+.Pdate{
+    width:6%
+}
+.experiance {
+    width: 3%;
+}
+
+.Location {
+    width: 6%;
+}
+
+.JobType {
+    width: 5%
+}
+
+.Qualif {
+    width: 5%
+}
+.DeleteAction{
+    width:6%
+}
+
+.DeleteButton {
+    /* background-color: rgb(40, 4, 99); */
+    background-color: red;
+    border:1px solid red;
+    color: white;
+    width:85%;
+    height: 25px;
+    font-weight: bold;
+
+}
+.Status{
+    width:10%;
+}

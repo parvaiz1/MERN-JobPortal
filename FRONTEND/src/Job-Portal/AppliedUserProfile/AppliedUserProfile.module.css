@@ -1,0 +1,81 @@
+.AllUiWrapper{
+    margin-left: -2%;
+    margin-top: 2%;
+}
+
+
+.ul{
+    display: flex;
+    margin: 0px;
+
+}
+
+.li{
+    display: block;
+    border: 1px solid aqua;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 0.3%;
+    padding-left: 0.3%;
+    text-align: center;
+}
+.Nli{
+    display: block;
+    color:red
+}
+
+.name {
+    width:10%;
+    display: block;
+    
+}
+.onclick{
+    text-decoration: underline;
+    color: rgb(17, 96, 187);
+    /* cursor: pointer; */
+}
+.namelink{
+    display: block;
+    cursor: pointer;
+}
+.email{
+    width:16%
+}
+.phoneNumber{
+    width:7%
+}
+.age{
+  width:  7%
+}
+.Qualification{
+  width:  7%
+}
+.Experiance{
+   width: 7%
+}
+.Skills{
+    width:22%
+}
+.currentCTC{
+   width: 7%
+}
+.ExpectedSalary{
+   width: 8%
+}
+.checkProfile{
+   width: 7%
+}
+.NoticePeriod{
+   width: 7%
+}
+.Status{
+    width: 10%
+
+}
+/* .ViewProfile{
+    border: 1px solid rgb(40, 4, 99);
+    background-color: rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    height: 20px;
+} */

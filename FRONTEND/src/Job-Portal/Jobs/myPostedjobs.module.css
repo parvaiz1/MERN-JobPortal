@@ -1,0 +1,198 @@
+.notanyjob {
+    color: red;
+    text-align: center;
+}
+
+.carwrapper {
+    background-color: rgb(219, 223, 220);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid rgb(194, 193, 193);
+    margin: 1%;
+    width: 47%;
+    /* border-top: 4px solid rgb(144, 162, 201);
+     */
+    border-top: 4px solid rgb(55, 16, 92);
+}
+
+.skillsWrapper {
+    display: flex;
+}
+
+.Titlewrapper {
+    display: flex;
+    width: 90%;
+}
+
+.jobTitle {
+    width: 7000px
+}
+
+.description {
+    font-size: medium;
+    font-weight: 540;
+    display: inline;
+}
+
+.AlltexWrapper {
+    margin-left: 6%;
+}
+
+.descriptionAndApply {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    flex-wrap: wrap;
+    width: 60%;
+    word-wrap: break-word
+}
+
+.seeMore {
+    color: rgb(121, 68, 207)
+}
+
+/* .buttons{
+    display: flex;
+    /* justify-content:space-evenly; */
+
+/* .button{
+    border: 1px solid;
+    font-weight: 550; 
+    font-size: small; 
+    height: 30px;
+    width:10%;   
+    margin: 2%;
+}
+.delete{
+    margin-left: 65%;
+    background-color: rgb(252, 56, 56);
+    color: white;
+} */
+/* .update{
+    margin-left: 6%;
+    background-color: rgb(40, 4, 99);;
+    color: white;
+} */
+
+/* .text{
+    font-weight: 550;
+} */
+
+/* ...................................Li......................... */
+
+.searchBoth {
+    margin-left: 30%;
+    display: flex;
+}
+
+.p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.inputboxsearch {
+    display: inline-flex;
+
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 3%;
+    width: 35%;
+    border-radius: 5px;
+    border: 1.5px solid rgb(9, 247, 247);
+}
+
+.seeMore {
+    color: blue;
+}
+
+.Uiwarpper {
+    margin-top: 10px;
+    margin-left: -2%;
+}
+
+.ul {
+    display: flex;
+    margin: 0px;
+}
+
+.li {
+    display: inline-block;
+    padding: 0.5%;
+    width: 8%;
+    border: 1px solid rgb(9, 247, 247);
+    text-align: center;
+}
+
+.liDescription {
+    width: 20%;
+
+}
+
+.Jtitle {
+    width: 8%
+}
+
+.Package {
+    width: 5%
+}
+.Pdate{
+    width:7%
+}
+.experiance {
+    width: 3%;
+}
+
+.Location {
+    width: 5%;
+}
+.Action{
+    width:11%
+}
+
+.Acbuttons {
+    height: 28px;
+    display: flex;
+    margin-left: 4%;
+}
+
+.Abutton {
+    margin-left: 5%;
+    border: 1px solid;
+    font-weight: 550;
+    font-size: small;
+}
+.viewButton{
+    background-color: rgb(40, 4, 99);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    width:40%;
+    border:1px solid rgb(40, 4, 99);
+
+
+}
+
+.delete {
+    background-color: rgb(252, 56, 56);
+    color: white;
+
+}
+
+.update {
+    background-color: rgb(40, 4, 99);
+    color: white;
+}
+.NuApplied{
+    width:10%
+}
+
+.text {
+    font-weight: 550;
+}
